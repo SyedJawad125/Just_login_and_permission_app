@@ -16,12 +16,12 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# JWT_ENCODING_ALGO= 'HS256'
-# JWT_ENCODING_SECRET_KEY= 'Cyber@123'
-# JWT_TOKEN_EXPIRY_DELTA= 300000
-# AUTH_USER_MODEL = 'user_auth.User'
+JWT_ENCODING_ALGO= 'HS256'
+JWT_ENCODING_SECRET_KEY= 'Cyber@123'
+JWT_TOKEN_EXPIRY_DELTA= 300000
+AUTH_USER_MODEL = 'user_auth.User'
 
-# AUTHENTICATION_BACKENDS = ["utils.base_authentication.AuthenticationBackend"]
+AUTHENTICATION_BACKENDS = ["utils.base_authentication.AuthenticationBackend"]
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
@@ -45,8 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',
-    # 'user_auth',
-    # 'permissions',
+    'user_auth',
+    'permissions',
 ]
 
 MIDDLEWARE = [

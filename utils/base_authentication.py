@@ -5,7 +5,7 @@ from rest_framework.authentication import BaseAuthentication
 from rest_framework import exceptions
 from utils.custom_exceptions import SessionExpired
 from utils.reusable_methods import decrypt_token
-from chat_site import settings
+from myproject import settings
 from user_auth.models import Token, User
 
 

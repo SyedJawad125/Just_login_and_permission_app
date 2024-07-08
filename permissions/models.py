@@ -1,6 +1,6 @@
 from django.db import models
 
-from chat_site.settings import AUTH_USER_MODEL
+# from myproject.settings import AUTH_USER_MODEL
 
 # Create your models here.
 

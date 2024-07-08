@@ -4,7 +4,7 @@ import random
 import ast                                                         
 from cryptography.fernet import Fernet
 from rest_framework.utils.serializer_helpers import ReturnList
-from chat_site.settings import JWT_ENCODING_SECRET_KEY, JWT_TOKEN_EXPIRY_DELTA
+from myproject.settings import JWT_ENCODING_SECRET_KEY, JWT_TOKEN_EXPIRY_DELTA
 from rest_framework.pagination import LimitOffsetPagination
 
 
